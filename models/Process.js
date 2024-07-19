@@ -5,7 +5,7 @@ const sequelize = require("../config/sequelize");
 
 const Process = sequelize.define('Process_task', {
     id: {
-        tyoe: DataTypes.INTEGER,
+        type: DataTypes.INTEGER,
         autoIncrement: true,
         primaryKey: true
     },
